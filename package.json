@@ -1,0 +1,35 @@
+{
+  "name": "taxi-home-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "You can go home so easily.",
+  "author": "riotamoriya",
+  "keywords": [
+    "taxi-home-app"
+  ],
+  "scripts": {
+    "develop": "gatsby clean && gatsby develop -H 0.0.0.0 -p 8765",
+    "build": "gatsby clean && gatsby build --prefix-paths",
+    "serve": "npm run build && gatsby serve",
+    "clean": "gatsby clean",
+    "deploy": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public"
+  },
+  
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.2",
+    "bootstrap": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "gatsby": "^5.12.4",
+    "gatsby-plugin-canonical-urls": "^5.12.0",
+    "gatsby-plugin-google-gtag": "^5.12.3",
+    "gatsby-plugin-manifest": "^5.12.3",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-s3": "^0.4.1",
+    "gatsby-plugin-sass": "^6.12.0",
+    "gatsby-plugin-sitemap": "^6.12.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "sass": "^1.67.0"
+  }
+}
