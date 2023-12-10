@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Sitemap: https://d1dbsbht6shkxg.cloudfront.net/sitemap-index.xml
+Host: https://d1dbsbht6shkxg.cloudfront.net
